@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 
     <preference
-        for="Magento\Framework\App\View\Asset\MaterializationStrategy\Copy"
-        type="Magento\Framework\App\View\Asset\MaterializationStrategy\Symlink" />
+        for="Magento\Framework\App\View\Asset\MaterializationStrategy\Factory"
+        type="Jh\SymlinkAssetDeploys\App\View\Asset\MaterializationStrategy\Factory" />
         
 </config>

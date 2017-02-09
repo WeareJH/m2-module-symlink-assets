@@ -12,6 +12,9 @@
     "autoload": {
         "files": [
             "registration.php"
-        ]
+        ],
+        "psr-4": {
+            "Jh\\SymlinkAssetDeploys\\": ""
+        }
     }
 }

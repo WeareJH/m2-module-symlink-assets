@@ -6,12 +6,12 @@ Some Badges would be nice.
 
 </p>
 
-This module will ensure the magento `setup:static-content:deploy` will deploy with symlinks instead of copies. Install it as a dev dependency so in production in will use copies!
+This module will ensure the magento `setup:static-content:deploy` will deploy with symlinks instead of copies in Developer mode.
 
 ## Install
 
 ```
-$ composer require --dev wearejh/m2-module-symlink-assets
+$ composer require wearejh/m2-module-symlink-assets
 ```
 
 ## Usage
